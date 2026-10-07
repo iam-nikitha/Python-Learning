@@ -60,8 +60,8 @@ print(final_price)
 bill = 2500
 after_discount = bill-(bill*0.05)
 gst_applied = after_discount * 0.05
-final_pay = after_discount + gst_applied
-print(final_pay) 
+final_price = after_discount + gst_applied
+print(final_price) 
 
 
 
