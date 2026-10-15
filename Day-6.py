@@ -1,4 +1,4 @@
-#Input Formatting /Output Formatting
+'''#Input Formatting /Output Formatting
 #input Formatting - Input()
 #usage of input()
 #we can pass any type of object as input ---> result is in only string
@@ -116,7 +116,25 @@ price = 54.562
 place = 'vizag'
 print('age = %d | Price = %f | Place = %s'%(age,price,place))
 print('price is %.f'%price)# in this case complete decimal part is wipped off
-print('price is %.2f'%price)# rounding off two decimals
+print('price is %.2f'%price)# rounding off two decimals. '''
+
+#3) usage of string formatting ---> Str,format()
+name = 'Nikitha';place = 'Vizag';age = 22;
+print('My name is {} from {} and my age is {}'.format(name,place,age))
+a,b = 2,45
+print("{1},{0}".format(a,b))
+print("value of a is {} and value of b is {}".format(a,b))
+#output
+#My name is Nikitha from Vizag and my age is 22
+#45,2
+#value of a is 2 and value of b is 45
+
+#f-string notation --->python 3.9+ versions
+print(f'My name is {name}') #My name is Nikitha
+#make sure to denote the variables only in curly braces
+print(f'value of a is {a} and value of b is {b}')
+#value of a is 2 and value of b is 45
+
 
 
 
